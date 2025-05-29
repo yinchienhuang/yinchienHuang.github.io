@@ -20,3 +20,45 @@ main {
 h1, h2 {
   color: #004080;
 }
+
+/* Navigation Bar Styling */
+.navbar {
+  background-color: #004080;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #004080;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
